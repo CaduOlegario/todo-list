@@ -1,0 +1,24 @@
+.list {
+  width: auto;
+  background-color: #655560;
+  color: #ccc;
+  list-style-type: none;
+  padding: 3px 0 3px 10px;
+  /* padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px; */
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.obs {
+  text-align: center;
+}

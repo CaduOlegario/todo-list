@@ -1,0 +1,33 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #E8E9ED;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  background-image: url("https://img.elo7.com.br/product/zoom/2A1B178/fundo-fotografico-em-tecido-lampadas-horizontal-2-20x1-50m-cenario-3d.jpg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+input, button {
+  font-family: 'Nunito', sans-serif;
+  padding: 5px;
+}
+.container {
+  margin: auto;
+  max-width: 350px;
+  background-color: #C4CAD0;
+  padding: 50px;
+  border-radius: 20px;
+  border: 1px solid #303633;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 1em rgba(255, 255, 255, 0.521);
+}
+
+input:focus, button:focus{
+  outline: none;
+}
